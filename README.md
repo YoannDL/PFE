@@ -17,22 +17,7 @@ Run the code below to install the depencies we need for our functions
 
 !pip install langchain==0.0.148
 
-Define the functions
 Run the python code: functions_index.py which will define the functions we need to construct the index and query it
-
-Set OpenAI API Key
-You need an OPENAI API key to be able to run this code.
-If you don't have one yet, get it by signing up. Then click your account icon on the top right of the screen and select "View API Keys". Create an API key.
-Then run the code below and paste your API key into the text input:
-os.environ["OPENAI_API_KEY"] = input("Paste your OpenAI key here and hit enter:")
-
-Construct an index
-Now we are ready to construct the index. This will take every file in the folder 'data', split it into chunks, and embed it with OpenAI's embeddings API.
-Notice: running this code will cost you credits on your OpenAPI account ($0.02 for every 1,000 tokens). If you've just set up your account, the free credits that you have should be more than enough for this experiment:
-
-construct_index("PFE/data")
-
-Run the function that queries GPT and type your question into the input.
 
 If you've used the provided data for your custom knowledge base, here are a few questions that you can ask these questions for example:
 Biodiversity:
@@ -53,8 +38,5 @@ Sustainable Development:
     How does planting trees help the environment?
     What are some ways that we can conserve water?
 
-Finally run this line of code:
-ask_ai()
 
-You can also just clone and pip install then run the python script queries.py
 
