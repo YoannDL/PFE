@@ -56,4 +56,5 @@ Sustainable Development:
 Finally run this line of code:
 ask_ai()
 
+You can also just run the python script queries.py
 
