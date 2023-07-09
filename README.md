@@ -14,6 +14,7 @@ Install the dependicies
 Run the code below to install the depencies we need for our functions
 
 !pip install llama-index==0.5.6
+
 !pip install langchain==0.0.148
 
 Define the functions
