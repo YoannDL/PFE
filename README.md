@@ -17,7 +17,7 @@ Run the code below to install the depencies we need for our functions
 
 !pip install langchain==0.0.148
 
-Run the python code: functions_index.py which will define the functions we need to construct the index and query it
+Run the python code
 
 If you've used the provided data for your custom knowledge base, here are a few questions that you can ask these questions for example:
 Biodiversity:
